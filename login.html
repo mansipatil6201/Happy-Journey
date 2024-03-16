@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <title>HappyJourney | Login</title>
+</head>
+<body>
+    <header class="signin__header">
+        <div class="header__content">
+            <div class="logo__background">&nbsp;</div>
+            <a href="index.html" class="header__title header__title--pink">HappyJourney</a>
+        </div>
+        <input type="checkbox" class="header__checkbox" id="nav-toggle">
+        <label for="nav-toggle" class="nav__button">
+            <span class="nav__icon">&nbsp;</span>
+        </label>
+        <div class="nav__background">&nbsp;</div>
+        <div class="header__menu">
+            <ul class="header__list">
+                <li class="list__item"><a class="nav__link" href="index.html">Home</a></li>
+                <li class="list__item"><a class="nav__link" href="aboutus.html">About Us</a></li>
+                <li class="list__item"><a class="nav__link" href="destinations.html">Destinations</a></li>
+                <li class="list__item"><a class="nav__link" href="contactus.html">Contact Us</a></li>
+                <li class="list__item"><a class="nav__link" href="login.html">Sign Up</a></li>
+            </ul>
+        </div>
+    </header>
+    <section class="login__form">
+        <form action="" class="form__control">
+            <h1 class="tertiary__heading">Sign In</h1>
+            <div class="form__group">
+                <input class="form__input" type="text" name="Username" id="formname" placeholder="Username" required>
+                <label class="form__label" for="formname">Userame</label>
+            </div>
+
+            <div class="form__group">
+                <input class="form__input" type="password" name="Name" id="formpassword" placeholder="Password" required>
+                <label class="form__label" for="formpassword">Password</label>
+            </div>
+            
+            <div class="form__group mb__3">
+                <button>Submit</button>
+            </div>
+            
+            <a href="regsiter.html" class="registration__link">Create an account</a>
+        </form>
+    </section>
+</body>
+</html>
